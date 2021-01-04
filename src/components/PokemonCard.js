@@ -9,7 +9,7 @@ export default function PokemonCard(props){
 
     return(!!pokemons.pokemonName && pokemons.pokemonName.map(pokemon =>{
             return(
-                <Link to={`/pokemon/${pokemon}`} key={`${pokemon}`} onClick={()=> document.getElementById(`${pokemon}`.innerText)} className="container-pokemon">
+                <Link to={`/pokedex-react/pokemon/${pokemon}`} key={`${pokemon}`} onClick={()=> document.getElementById(`${pokemon}`.innerText)} className="container-pokemon">
                     <div className="container-img-pokemon">
                         <PokemonImg pokemon={pokemon}/>
                     </div>

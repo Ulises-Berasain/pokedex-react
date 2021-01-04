@@ -31,7 +31,7 @@ function App() {
 
         <Switch>
 
-          <Route path="/" exact>
+          <Route path="/pokedex-react/" exact>
             <ButtonNextPrev onClickPrev={handlePrevPage} onClickNext={handleNextPage}/>
             <div className="containter-pokemon-card">
               <PokemonCard pokemon={pokemons}/>
@@ -39,19 +39,19 @@ function App() {
             <ButtonNextPrev onClickPrev={handlePrevPage} onClickNext={handleNextPage}/>
           </Route>
 
-          <Route path="/pokemon/types" exact>
+          <Route path="/pokedex-react/pokemon/types" exact>
             <TypesTable/>
           </Route>
 
-          <Route path="/pokemon/info" exact>
+          <Route path="/pokedex-react/pokemon/info" exact>
             <Info/>
           </Route>
 
-          <Route path="/pokemon/contact" exact>
+          <Route path="/pokedex-react/pokemon/contact" exact>
             <Contact/>
           </Route>
 
-          <Route path="/pokemon/:pokemon" exact>
+          <Route path="/pokedex-react/pokemon/:pokemon" exact>
             <PokemonInfo/>
           </Route>
 

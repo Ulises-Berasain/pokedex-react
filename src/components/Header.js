@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 export default function Header(){
     return(
         <header className="header">
-            <Link to="/" className="pokemon-logo">
+            <Link to="/pokedex-react/" className="pokemon-logo">
                 <img src={pokemonLogo} alt="Pokemon Logo" className="pokemon-logo"/>
             </Link>
         </header>

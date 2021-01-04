@@ -8,5 +8,5 @@ export default function ButtonNextPrev(props){
             <button onClick={props.onClickPrev} className="button-prev btn btn-danger">Prev</button>
             <button onClick={props.onClickNext} className="button-next btn btn-danger">Next</button>
         </div>
-    )
-}
+    );
+};

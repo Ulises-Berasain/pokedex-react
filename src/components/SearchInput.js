@@ -13,7 +13,7 @@ export default function SearchInput(){
     };
 
     const handleOnClick = ()=>{
-        return history.replace(`/pokemon/${searchPokemon.toLocaleLowerCase()}`), setSearchPokemon("");
+        return history.replace(`/pokedex-react/pokemon/${searchPokemon.toLocaleLowerCase()}`), setSearchPokemon("");
     }
 
     return(
@@ -23,10 +23,10 @@ export default function SearchInput(){
                 <button onClick={handleOnClick} className="button-search" >Search Pokemon</button>
 
                 <div className="btn-group">
-                    <NavLink to="/" className="btn btn-danger" activeClassName="active" exact>Home</NavLink>
-                    <NavLink to="/pokemon/types" className="btn btn-danger" activeClassName="active" exact>Types Table</NavLink>
-                    <NavLink to="/pokemon/info" className="btn btn-danger" activeClassName="active" exact>Info</NavLink>
-                    <NavLink to="/pokemon/contact" className="btn btn-danger" activeClassName="active" exact>Contact</NavLink>
+                    <NavLink to="/pokedex-react/" className="btn btn-danger" activeClassName="active" exact>Home</NavLink>
+                    <NavLink to="/pokedex-react/pokemon/types" className="btn btn-danger" activeClassName="active" exact>Types Table</NavLink>
+                    <NavLink to="/pokedex-react/pokemon/info" className="btn btn-danger" activeClassName="active" exact>Info</NavLink>
+                    <NavLink to="/pokedex-react/pokemon/contact" className="btn btn-danger" activeClassName="active" exact>Contact</NavLink>
                 </div>
             </div>
         </React.Fragment>
