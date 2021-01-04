@@ -1,0 +1,17 @@
+.container-types-table{
+    margin:1rem;
+}
+
+.types-table, .each-type{
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+
+@media screen and (min-width: 768px){
+    .container-types-table{
+        margin:1rem;
+        display:grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}

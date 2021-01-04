@@ -1,0 +1,143 @@
+.steel{
+    margin: 5px;
+    background: lightgray;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.water{
+    margin: 5px;
+    background: royalblue;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.bug{
+    margin: 5px;
+    background: yellowgreen;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.dragon{
+    margin: 5px;
+    background: mediumslateblue;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.electric{
+    margin: 5px;
+    background: yellow;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.ghost{
+    margin: 5px;
+    background: purple;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.fire{
+    margin: 5px;
+    background: crimson;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.fairy{
+    margin: 5px;
+    background: rgb(255, 136, 238);
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.ice{
+    margin: 5px;
+    background: aquamarine;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.fighting{
+    margin: 5px;
+    background: firebrick;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.normal{
+    margin: 5px;
+    background: rgb(214, 214, 224);
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.grass{
+    margin: 5px;
+    background: rgb(3, 217, 3);
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.psychic{
+    margin: 5px;
+    background: violet;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.rock{
+    margin: 5px;
+    background: peru;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.dark{
+    margin: 5px;
+    background: slategray;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.ground{
+    margin: 5px;
+    background: burlywood;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.poison{
+    margin: 5px;
+    background: mediumpurple;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.flying{
+    margin: 5px;
+    background: lightskyblue;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}

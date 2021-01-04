@@ -1,0 +1,36 @@
+.pokemon-title{
+    color: black;
+    text-transform: capitalize;
+    text-align:center;
+    font-size: 24px;
+    transition: transform 0.5s ease;
+}
+
+.container-pokemon{
+    text-decoration: none;
+    border: solid 5px black;
+    margin: 1rem;
+    background: linear-gradient(to bottom,rgb(238, 27, 31) 46%,rgb(0, 0, 0) 0.1%,  rgb(0, 0, 0) 50%, rgb(254,254,254) 0.1%, rgb(254,254,254) 100%);
+}
+
+.container-pokemon:hover{
+    cursor: pointer;
+}
+
+.container-pokemon:hover h3, .container-pokemon:hover .container-img-pokemon{
+    transform: scale(1.05);
+}
+
+.container-img-pokemon{
+    background-image: url(../img/pokeball-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    border: solid 5px black;
+    min-width: 10vw;
+    margin: 1rem;
+    padding: 1rem;
+    transition: transform 0.5s ease;
+    background-color: rgb(135, 128, 128);
+    box-shadow: inset 0 0 15px #000000;
+}

@@ -1,0 +1,21 @@
+.abilities-title{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 24px;
+}
+
+.ability-name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 480px){
+    .abilities-title{
+        font-size: 26px;
+    }
+
+    .ability-name{
+        font-size: 16px;
+    }
+}

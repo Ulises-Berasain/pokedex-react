@@ -1,0 +1,7 @@
+.move-data{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    background: rgb(255, 197, 88);
+}

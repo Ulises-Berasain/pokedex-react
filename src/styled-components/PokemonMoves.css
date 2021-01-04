@@ -1,0 +1,16 @@
+.table-head-moves{
+    text-align: center;
+    background: rgb(255, 165, 0);
+}
+
+.th-moves{
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.move-method, .move-value{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    background: rgb(255, 197, 88);
+}

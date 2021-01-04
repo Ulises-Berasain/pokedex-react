@@ -1,0 +1,23 @@
+.containter-pokemon-card{
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+@media screen and (min-width: 480px){
+  
+}
+
+@media screen and (min-width: 768px){
+  .containter-pokemon-card{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .containter-pokemon-card{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}

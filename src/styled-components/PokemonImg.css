@@ -1,0 +1,20 @@
+.image-pokemon{
+    min-width: 20vw;
+    max-width: 20vw;
+    display:block;
+    margin:auto;
+}
+
+@media screen and (min-width: 480px){
+    .image-pokemon{
+        min-width: 20vw;
+        max-width: 20vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .image-pokemon{
+        min-width: 15vw;
+        max-width: 15vw;
+    }
+}

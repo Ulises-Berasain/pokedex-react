@@ -1,0 +1,19 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3vw);
+    background:rgb(238, 27, 31);
+    min-width: 105vw;
+}
+
+.pokemon-logo{
+    grid-column: 2;
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+
+@media screen and (min-width: 480px){
+    .header{
+        min-width: auto;
+    }
+}
