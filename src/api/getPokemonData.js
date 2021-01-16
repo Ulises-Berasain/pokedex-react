@@ -1,4 +1,5 @@
 import {URL_POKEMON} from "api/setting";
+import whosThatPokemon from "img/que-pokemon.png";
 
 export default async function getPokemonData(pokemonName){
     const pokeURL = `${URL_POKEMON}/${pokemonName}`;
@@ -28,8 +29,17 @@ export default async function getPokemonData(pokemonName){
         
         const typesPokemon = typePokemon();
         const officialArtwork = imgPokemon();
-
+        console.log(abilities)
         return {officialArtwork, name, abilities, moves, typesPokemon, stats, height, weight, id};
     })
-    .catch(error=>{ return error});
+    .catch(error=>{ 
+        const name = "Enter a valid Pokemon, check if you wrote the name correctly";
+        const id = "0";
+        const height = "???";
+        const weight = "???";
+        const typesPokemon = ["error"];
+        const officialArtwork = whosThatPokemon;
+
+        return {name, id, height, weight, typesPokemon, officialArtwork};
+    });
 };

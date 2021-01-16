@@ -141,3 +141,11 @@
     color: white;
     -webkit-text-stroke: 0.5px black;
 }
+
+.error{
+    margin: 5px;
+    background: crimson;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
