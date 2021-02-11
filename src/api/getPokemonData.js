@@ -29,7 +29,7 @@ export default async function getPokemonData(pokemonName){
         
         const typesPokemon = typePokemon();
         const officialArtwork = imgPokemon();
-        console.log(abilities)
+
         return {officialArtwork, name, abilities, moves, typesPokemon, stats, height, weight, id};
     })
     .catch(error=>{ 

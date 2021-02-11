@@ -21,6 +21,8 @@
 
 .instagram-logo, .twitter-logo, .facebook-logo, .email-logo, .git-hub-logo, .wapp-logo{
     max-width: 30vw;
+    display: block;
+    margin: auto;
 }
 
 @media screen and (min-width: 480px){
