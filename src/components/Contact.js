@@ -33,8 +33,8 @@ export default function Contact(){
                 </li>
 
                 <li>
-                    <a href="mailto:uli_cuervo_79@hotmail.com" className="email" target="_blank" rel="noreferrer">
-                        <span>e-mail: uli_cuervo_79@hotmail.com</span> 
+                    <a href="mailto:ulises.berasain@gmail.com" className="email" target="_blank" rel="noreferrer">
+                        <span>e-mail: ulises.berasain@gmail.com</span> 
                         <img className="email-logo" alt="e-mail Logo" src={emailLogo}/>
                     </a>
                 </li>
